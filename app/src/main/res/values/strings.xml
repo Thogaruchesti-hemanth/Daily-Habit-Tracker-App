@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Habit Tracker</string>
+    <string name="save_habit">Save Habit</string>
+    <string name="reminder_time_optional">Reminder Time (optional)</string>
+    <string name="set_goal_optional">Set Goal (optional)</string>
+    <string name="enter_description">Enter description</string>
+    <string name="description">Description</string>
+    <string name="enter_habit_name">Enter habit name</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="select_language">Select Language</string>
+
+    // Languages Array
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+</resources>

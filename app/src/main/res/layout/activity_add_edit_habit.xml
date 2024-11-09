@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Habit Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/habit_name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextHabitName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_habit_name"
+        android:textSize="18sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Habit Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_description"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Goal Picker -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_goal_optional"
+        android:textSize="18sp"/>
+
+    <NumberPicker
+        android:id="@+id/numberPickerGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Reminder Time Picker -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reminder_time_optional"
+        android:textSize="18sp"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSaveHabit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/save_habit"
+        android:textSize="18sp"
+        android:backgroundTint="@color/material_dynamic_primary10"/>
+
+</LinearLayout>
